@@ -16,7 +16,13 @@
 package LEACHCPckg;
 simple Node
 {
+    parameters:
+        double x;
+        double y;
+        @display("p=$x,$y");
     gates:
         input radioIn @directIn; // work as input and output
+        
+
         //output out;
 }

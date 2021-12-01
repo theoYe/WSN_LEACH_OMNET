@@ -17,6 +17,7 @@ package LEACHCPckg;
 
 simple Sink
 {
+    parameters:
     gates:
         input radioIn @directIn;
 }

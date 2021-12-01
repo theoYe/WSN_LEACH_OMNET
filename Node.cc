@@ -28,15 +28,18 @@ Node::Node() {
     // TODO Auto-generated constructor stub
     this->X = 0;
     this->Y = 0;
-    batteryPower = 0.5;
-    this->G = 0.0;
+    batteryPower = 5; //5J
+
     this->type = 'N'; //Normal Node
 
     //Sleep time
     sleepTime = 0.10;
 
-    Efs = 10 * 0.000000000001;
-    Emp = 0.0013 * 0.000000000001;
+    EDA = 5 * 0.000000001;  //50nJ
+    ETX = 50 * 0.000000001;
+    ERX = 50 * 0.000000001;
+    Efs = 10 * 0.000000000001;  //10 pJ
+    Emp = 0.0013 * 0.000000000001;  //0.0013 pJ
     Do = sqrt(Efs / Emp);
 
     CHETx = 0.0;
@@ -44,10 +47,9 @@ Node::Node() {
     NETX = 0.0; //Node ETX
     NERX = 0.0; //Node ERX
 
-    ETX = 50 * 0.000000001;
-    ERX = 50 * 0.000000001;
+    WATCH(batteryPower);
 
-    EDA = 5 * 0.000000001;
+
 
     CHIndex = 0;
     roundInterval = 1.0;
@@ -134,7 +136,7 @@ void Node::handleMessage(cMessage *msg) {
 
     //noOfNodeDied = ThresholdCheck(noOfNodeDied);
     /*Casting incomming msg to custMsg(Customize message)*/
-    custMsg *inMsg = check_and_cast<custMsg *>(msg);
+    custMsg *inMsg = check_and_cast<custMsg *>(msg->dup());
 
     //Handle incoming data message
     if (strcmp("DataMsg", inMsg->getFullName()) == 0) {
@@ -165,8 +167,9 @@ void Node::handleMessage(cMessage *msg) {
         }
 
         inMsg->setPacketReachTime(simTime().dbl());
-        chDataQueue->insert(inMsg);
+        chDataQueue->insert(inMsg->dup());
     }
+    delete inMsg;
 
     //Initial setup
     if (roundNumber <= 0 && getIndex() == noOfWirelessNode - 1) {
@@ -226,9 +229,13 @@ void Node::handleMessage(cMessage *msg) {
 
     if (msg->isSelfMessage()) {
         custMsg *dataMessage = CreateCustMsg("DataMsg");
-        dataQueue->insert(dataMessage);
+        dataQueue->insert(dataMessage->dup());
+        delete dataMessage;
         scheduleAt(simTime().dbl() + sleepTime, msg->dup()); //Schedule after 0.5 second
     }
+
+    delete msg;
+
 }
 void Node::finish() {
 
@@ -245,28 +252,11 @@ void Node::finish() {
 }
 
 void Node::SetCoordinate() {
+    this->X = par("x");
+    this->Y = par("y");
 
-    int corX = 0;
-    int corY = 0;
-    int startAfterX = 5;
-    int endBeforeX = netSizeX-5;
-    int startAfterY = 20;
-    int endBeforeY = netSizeX-5;
-
-    //Take Rand value >10 and <=750
-    do {
-        corX = intrand(netSizeX); //old = 800
-    } while (corX <= startAfterX || corX >= endBeforeX); //Old 10,750
-
-    do {
-        corY = intrand(netSizeY);
-    } while (corY <= startAfterY || corY >= endBeforeY); //old 70, 550
-
-    this->X = corY;
-    this->Y = corY;
-
-    getDisplayString().setTagArg("p", 0, corX);
-    getDisplayString().setTagArg("p", 1, corY);
+    getDisplayString().setTagArg("p", 0, this->X);
+    getDisplayString().setTagArg("p", 1, this->Y);
 }
 
 void Node::ClusterHeadSelection(int roundNo) {
@@ -321,6 +311,7 @@ void Node::ClusterHeadSelection(int roundNo) {
         tempNode = check_and_cast<Node *>(tempModule);
         tempNode->type = 'N';
         tempNode->CHIndex = 0;
+        tempNode->getDisplayString().setTagArg("i", 1, "green");
     }
 
     //Cluster head selection: Choose CH from all nodes
@@ -361,10 +352,15 @@ void Node::ClusterHeadSelection(int roundNo) {
                     //EV << "CH no: " << noOfCH << endl;
                     tempNode->type = 'C'; //Cluster node
 
+                    tempNode->getDisplayString().setTagArg("i", 1, "red");
+
                     //Populate global CH list
                     //String conversion Begin
                     char buffer[33];
-                    itoa(i, buffer, 10);
+                    //itoa(i, buffer, 10);
+
+                    snprintf(buffer, sizeof(buffer), "%d", i);
+
                     std::string strCH(buffer);
 
                     if (noOfCH <= 1) {

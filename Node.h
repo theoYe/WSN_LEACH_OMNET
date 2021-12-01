@@ -25,8 +25,8 @@ using namespace omnetpp;
 class Node: public cSimpleModule {
 
 public:
-    int X;
-    int Y;
+    double X;
+    double Y;
     int netSizeX;
     int netSizeY;
 

@@ -26,8 +26,12 @@ network LEACHC
         int noOfCH = default(0);
         int noOfCluster = default(0);
         string lstCH = default("0");
-        int sinkX = default(80); //old = 230
-        int sinkY = default(20); //old = 40
+        
+        double R = default(200);
+        
+        int sinkX = default(0); //old = 230
+        int sinkY = default(0); //old = 40
+        
         int networkStatus = default(0); //1=Setup, 2=Data send to CH, 3=Data Send to Sink
         int netSizeX = default(200);
         int netSizeY = default(200);
@@ -44,7 +48,7 @@ network LEACHC
         int noPacketSentToSink = default(0);
         int sendPacketToCH = default(0);
 
-        int noOfWirelessNode @prompt("Number of Nodes") = default(2);
+        int noOfWirelessNode @prompt("Number of Nodes") = default(50);
         //@display("bgb=netSizeX,netSizeY");
         //@display("bgb=800,600");
         @display("bgb=200,200");
@@ -52,6 +56,8 @@ network LEACHC
     submodules:
         sink: Sink;
         node[noOfWirelessNode]: Node {
+            x = cos(uniform(0,2*3.14159))  * uniform(0, dropUnit(R))  ;
+            y = sin(uniform(0,2*3.14159))  * uniform(0, dropUnit(R))  ;
             @display("i=misc/node_vs,gold;p=230,140");
         }
 

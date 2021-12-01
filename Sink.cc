@@ -33,6 +33,8 @@ void Sink::initialize() {
     sinkDataQueue = new cQueue;
     custMsg *wakeup = CreateCustMsg("Wakeup");
 
+
+
             //new cMessage("Wakeup");
     X = getParentModule()->par("sinkX");
     Y = getParentModule()->par("sinkY");
@@ -42,10 +44,19 @@ void Sink::initialize() {
 
     SetCoordinate();
 
+
+    cMessage * snapshotMsg = new cMessage("snapshot");
+    snapshotMsg->setKind(100);
+    scheduleAt(simTime().dbl() + 60, snapshotMsg->dup());  //1 min 统计一次
+    delete snapshotMsg;
+
+
     /***********************************************************************
      * Initial schedule for each node
      * *********************************************************************/
-    scheduleAt(simTime().dbl() + 0.5, wakeup);
+    scheduleAt(simTime().dbl() + 0.5, wakeup->dup());
+
+    delete wakeup;
 }
 
 custMsg* Sink::CreateCustMsg(const char* name) {
@@ -57,23 +68,32 @@ custMsg* Sink::CreateCustMsg(const char* name) {
 }
 
 void Sink::handleMessage(cMessage* msg) {
-
-
-
     //Casting incomming msg to custMsg(Customize message)
     custMsg *inMsg = check_and_cast<custMsg *>(msg);
     //Handle incoming data message
     if (strcmp("DataMsg", inMsg->getFullName()) == 0) {
         noDataInSink++;
         inMsg->setPacketReachTime(simTime().dbl());
-        sinkDataQueue->insert(inMsg);
+        sinkDataQueue->insert(inMsg->dup());
     }
-
+    delete inMsg;
 
 
     if (msg->isSelfMessage()) {
-        scheduleAt(simTime().dbl() + sleepTime, msg->dup()); //Schedule after 0.5 second
+        if(msg->getKind() == 100){
+             //snapshot(getParentModule());
+             cMessage * snapshotMsg = new cMessage("snapshot");
+             snapshotMsg->setKind(100);
+             scheduleAt(simTime().dbl() + 60, snapshotMsg->dup());  //1 min 统计一次
+             delete snapshotMsg;
+
+        }else{
+            scheduleAt(simTime().dbl() + sleepTime, msg->dup()); //Schedule after 0.5 second
+        }
     }
+
+
+    delete msg;
 }
 
 
