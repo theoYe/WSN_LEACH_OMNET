@@ -71,6 +71,12 @@ Node::~Node() {
 void Node::initialize() {
     dataQueue = new cQueue;  //Queue for incoming message
     chDataQueue = new cQueue;
+    dataSent = 0;
+    dataRecv = 0;
+
+    energySignal = registerSignal("energy");
+    dataSentSignal = registerSignal("dataSent");
+    dataRecvSignal = registerSignal("dataRecv");
 
     wakeup = CreateCustMsg("Wakeup");
     noOfWirelessNode = getParentModule()->par("noOfWirelessNode");
@@ -124,7 +130,6 @@ void Node::ThresholdCheck() {
 }
 
 void Node::handleMessage(cMessage *msg) {
-
     int networkStatus = getParentModule()->par("networkStatus");
     double lastRoundTime = getParentModule()->par("lastRoundTime");
     roundNumber = getParentModule()->par("roundNumber");
@@ -140,12 +145,12 @@ void Node::handleMessage(cMessage *msg) {
 
     //Handle incoming data message
     if (strcmp("DataMsg", inMsg->getFullName()) == 0) {
-
         //Power consumtion for incomming message
         if(this->type == 'C' && this->batteryPower >= 0)
         {
             //For Cluster head
             this->batteryPower = this->batteryPower - this->CHERx;
+
 
             if(this->batteryPower <= 0)
             {
@@ -232,6 +237,13 @@ void Node::handleMessage(cMessage *msg) {
         dataQueue->insert(dataMessage->dup());
         delete dataMessage;
         scheduleAt(simTime().dbl() + sleepTime, msg->dup()); //Schedule after 0.5 second
+    }else{
+        this->dataRecv +=1;
+        emit(dataRecvSignal, this->dataRecv);
+
+//        cTimestampedValue tmp(simTime(), this->batteryPower);
+//        emit(energySignal, &tmp);
+        emit(energySignal, this->batteryPower);
     }
 
     delete msg;
@@ -579,6 +591,9 @@ int Node::CalculateDistance(int senderIndex, int receiverIndex) {
 
 //Not used
 void Node::TempDataSendToCH() {
+//    cTimestampedValue tmp(simTime(), this->batteryPower);
+//    emit(energySignal, &tmp);
+    emit(energySignal, this->batteryPower);
     int noOfCH = getParentModule()->par("noOfCH");
     EV << "DataSendToCH, No of CH: " << noOfCH << endl;
 
@@ -635,6 +650,11 @@ void Node::TempDataSendToSink() {
 
 void Node::SendDataToCH() {
 
+    //cTimestampedValue tmp(simTime(), this->batteryPower);
+    emit(energySignal, this->batteryPower);
+
+    this->dataSent +=1;
+    emit(dataSentSignal, this->dataSent);
     int noOfNodeDied = getParentModule()->par("noOfNodeDied");
     int destNodeIndex = this->CHIndex;
     tempDestModule = getParentModule()->getSubmodule("node", destNodeIndex);
@@ -678,6 +698,11 @@ void Node::SendDataToCH() {
 }
 
 void Node::SendDataToSink() {
+    this->dataSent +=1;
+    emit(dataSentSignal, this->dataSent);
+//    cTimestampedValue tmp(simTime(), this->batteryPower);
+//    emit(energySignal, &tmp);
+    emit(energySignal, this->batteryPower);
 
     int noOfNodeDied = getParentModule()->par("noOfNodeDied");
     sinkModule = getParentModule()->getSubmodule("sink");

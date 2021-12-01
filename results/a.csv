@@ -1,0 +1,617 @@
+run,type,module,name,attrname,attrvalue,value,count,sumweights,mean,stddev,min,max,binedges,binvalues
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,configname,Nodes-50,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,datetime,20211201-17:09:41,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,experiment,Nodes-50,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,inifile,omnetpp.ini,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,iterationvars,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,iterationvarsf,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,measurement,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,network,LEACHCPckg.LEACHC,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,processid,29025,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,repetition,0,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,replication,#0,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,resultdir,results,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,runnumber,0,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,runattr,,,seedset,0,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,param,,,LEACHC.noOfWirelessNode,50,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,param,,,LEACHC.clusterHeadPercentage,0.1,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[0],dataRecv:histogram,,,,10421,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10421 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[0],dataSent:histogram,,,,11056,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11056 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[0],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[0],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[1],dataRecv:histogram,,,,578,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 578 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[1],dataSent:histogram,,,,1068,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1068 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[1],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[1],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[2],dataRecv:histogram,,,,692,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 692 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[2],dataSent:histogram,,,,1104,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[2],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[2],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[3],dataRecv:histogram,,,,1258,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1258 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[3],dataSent:histogram,,,,1345,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1345 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[3],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[3],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[4],dataRecv:histogram,,,,952,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 952 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[4],dataSent:histogram,,,,1206,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1206 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[4],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[4],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[5],dataRecv:histogram,,,,1258,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1258 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[5],dataSent:histogram,,,,1331,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1331 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[5],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[5],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[6],dataRecv:histogram,,,,976,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[6],dataSent:histogram,,,,1146,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1146 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[6],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[6],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[7],dataRecv:histogram,,,,1055,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1055 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[7],dataSent:histogram,,,,1357,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1357 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[7],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[7],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[8],dataRecv:histogram,,,,609,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 609 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[8],dataSent:histogram,,,,1243,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1243 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[8],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[8],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[9],dataRecv:histogram,,,,1035,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1035 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[9],dataSent:histogram,,,,1119,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1119 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[9],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[9],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[10],dataRecv:histogram,,,,605,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 605 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[10],dataSent:histogram,,,,1165,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1165 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[10],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[10],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[11],dataRecv:histogram,,,,565,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 565 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[11],dataSent:histogram,,,,1095,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1095 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[11],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[11],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[12],dataRecv:histogram,,,,691,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 691 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[12],dataSent:histogram,,,,1177,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1177 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[12],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[12],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[13],dataRecv:histogram,,,,1142,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1142 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[13],dataSent:histogram,,,,1368,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1368 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[13],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[13],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[14],dataRecv:histogram,,,,1426,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1426 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[14],dataSent:histogram,,,,1313,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1313 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[14],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[14],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[15],dataRecv:histogram,,,,754,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 754 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[15],dataSent:histogram,,,,1159,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1159 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[15],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[15],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[16],dataRecv:histogram,,,,1351,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1351 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[16],dataSent:histogram,,,,1282,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1282 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[16],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[16],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[17],dataRecv:histogram,,,,1194,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1194 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[17],dataSent:histogram,,,,1330,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1330 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[17],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[17],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[18],dataRecv:histogram,,,,1180,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1180 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[18],dataSent:histogram,,,,1339,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1339 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[18],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[18],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[19],dataRecv:histogram,,,,343,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 343 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[19],dataSent:histogram,,,,1041,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1041 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[19],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[19],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[20],dataRecv:histogram,,,,1055,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1055 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[20],dataSent:histogram,,,,1310,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1310 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[20],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[20],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[21],dataRecv:histogram,,,,1504,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1504 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[21],dataSent:histogram,,,,1442,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1442 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[21],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[21],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[22],dataRecv:histogram,,,,1185,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1185 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[22],dataSent:histogram,,,,1209,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1209 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[22],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[22],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[23],dataRecv:histogram,,,,889,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 889 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[23],dataSent:histogram,,,,1337,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1337 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[23],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[23],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[24],dataRecv:histogram,,,,1416,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1416 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[24],dataSent:histogram,,,,1285,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1285 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[24],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[24],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[25],dataRecv:histogram,,,,1583,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1583 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[25],dataSent:histogram,,,,1468,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[25],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[25],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[26],dataRecv:histogram,,,,260,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 260 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[26],dataSent:histogram,,,,1104,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1104 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[26],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[26],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[27],dataRecv:histogram,,,,350,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 350 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[27],dataSent:histogram,,,,1168,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[27],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[27],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[28],dataRecv:histogram,,,,1190,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[28],dataSent:histogram,,,,1459,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1459 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[28],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[28],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[29],dataRecv:histogram,,,,577,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 577 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[29],dataSent:histogram,,,,1096,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[29],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[29],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[30],dataRecv:histogram,,,,1204,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1204 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[30],dataSent:histogram,,,,1337,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1337 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[30],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[30],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[31],dataRecv:histogram,,,,848,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 848 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[31],dataSent:histogram,,,,1268,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1268 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[31],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[31],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[32],dataRecv:histogram,,,,916,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[32],dataSent:histogram,,,,1296,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[32],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[32],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[33],dataRecv:histogram,,,,1342,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1342 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[33],dataSent:histogram,,,,1468,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1468 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[33],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[33],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[34],dataRecv:histogram,,,,770,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 770 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[34],dataSent:histogram,,,,1155,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1155 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[34],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[34],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[35],dataRecv:histogram,,,,351,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 351 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[35],dataSent:histogram,,,,1146,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1146 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[35],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[35],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[36],dataRecv:histogram,,,,1401,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1401 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[36],dataSent:histogram,,,,1319,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1319 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[36],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[36],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[37],dataRecv:histogram,,,,1542,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1542 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[37],dataSent:histogram,,,,1435,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1435 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[37],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[37],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[38],dataRecv:histogram,,,,1357,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1357 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[38],dataSent:histogram,,,,1484,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1484 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[38],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[38],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[39],dataRecv:histogram,,,,1078,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1078 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[39],dataSent:histogram,,,,1234,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1234 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[39],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[39],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[40],dataRecv:histogram,,,,1000,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[40],dataSent:histogram,,,,1285,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1285 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[40],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[40],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[41],dataRecv:histogram,,,,1179,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1179 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[41],dataSent:histogram,,,,1233,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1233 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[41],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[41],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[42],dataRecv:histogram,,,,368,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 368 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[42],dataSent:histogram,,,,1149,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1149 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[42],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[42],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[43],dataRecv:histogram,,,,190,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 190 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[43],dataSent:histogram,,,,1167,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1167 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[43],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[43],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[44],dataRecv:histogram,,,,1403,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[44],dataSent:histogram,,,,1243,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1243 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[44],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[44],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[45],dataRecv:histogram,,,,816,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 816 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[45],dataSent:histogram,,,,1169,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1169 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[45],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[45],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[46],dataRecv:histogram,,,,581,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 581 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[46],dataSent:histogram,,,,1147,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1147 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[46],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[46],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[47],dataRecv:histogram,,,,1525,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1525 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[47],dataSent:histogram,,,,1486,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1486 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[47],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[47],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[48],dataRecv:histogram,,,,1161,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1161 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[48],dataSent:histogram,,,,1295,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1295 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[48],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[48],energe:histogram,title,"node remain energe, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[49],dataRecv:histogram,,,,232,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 232 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],dataRecv:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],dataRecv:histogram,source,dataRecv,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],dataRecv:histogram,title,"node recv data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[49],dataSent:histogram,,,,1140,,0,0,0,0," -0.5 -0.48 -0.46 -0.44 -0.42 -0.4 -0.38 -0.36 -0.34 -0.32 -0.3 -0.28 -0.26 -0.24 -0.22 -0.2 -0.18 -0.16 -0.14 -0.12 -0.1 -0.08 -0.06 -0.04 -0.02 0 0.02 0.04 0.06 0.08 0.1 0.12 0.14 0.16 0.18 0.2 0.22 0.24 0.26 0.28 0.3 0.32 0.34 0.36 0.38 0.4 0.42 0.44 0.46 0.48 0.5"," 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1140 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],dataSent:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],dataSent:histogram,source,dataSent,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],dataSent:histogram,title,"node send data, histogram",,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,histogram,LEACHC.node[49],energe:histogram,,,,0,,NaN,NaN,NaN,NaN," 0 1"," 0"
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],energe:histogram,,,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],energe:histogram,source,energe,,,,,,,,,
+Nodes-50-0-20211201-17:09:41-29025,attr,LEACHC.node[49],energe:histogram,title,"node remain energe, histogram",,,,,,,,,

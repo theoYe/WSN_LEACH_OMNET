@@ -60,6 +60,14 @@ public:
     int noDataSentToSink;
     int noDataInSink;
 
+    simsignal_t energySignal;
+    simsignal_t dataSentSignal;
+    simsignal_t dataRecvSignal;
+
+    int dataSent;
+    int dataRecv;
+
+
     custMsg *wakeup;
     custMsg *data;
     cQueue *dataQueue;

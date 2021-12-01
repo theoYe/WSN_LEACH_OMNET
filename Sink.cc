@@ -45,7 +45,7 @@ void Sink::initialize() {
     SetCoordinate();
 
 
-    cMessage * snapshotMsg = new cMessage("snapshot");
+    custMsg * snapshotMsg = CreateCustMsg("snapshot");
     snapshotMsg->setKind(100);
     scheduleAt(simTime().dbl() + 60, snapshotMsg->dup());  //1 min 统计一次
     delete snapshotMsg;
@@ -69,7 +69,7 @@ custMsg* Sink::CreateCustMsg(const char* name) {
 
 void Sink::handleMessage(cMessage* msg) {
     //Casting incomming msg to custMsg(Customize message)
-    custMsg *inMsg = check_and_cast<custMsg *>(msg);
+    custMsg *inMsg = check_and_cast<custMsg *>(msg->dup());
     //Handle incoming data message
     if (strcmp("DataMsg", inMsg->getFullName()) == 0) {
         noDataInSink++;
@@ -81,8 +81,8 @@ void Sink::handleMessage(cMessage* msg) {
 
     if (msg->isSelfMessage()) {
         if(msg->getKind() == 100){
-             //snapshot(getParentModule());
-             cMessage * snapshotMsg = new cMessage("snapshot");
+             snapshot(getParentModule());
+            custMsg * snapshotMsg = CreateCustMsg("snapshot");
              snapshotMsg->setKind(100);
              scheduleAt(simTime().dbl() + 60, snapshotMsg->dup());  //1 min 统计一次
              delete snapshotMsg;

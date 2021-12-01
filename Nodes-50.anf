@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/03-LEACHC/results/Nodes-50-*.vec"/>
+    <inputs/>
+    <inputs name="/03-LEACHC/results/Nodes-50-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="w"/>
+    <datasets name="ernergy">
+      <items xsi:type="scave:Add" filterPattern="name(energy:vector)" type="VECTOR"/>
+      <items xsi:type="scave:LineChart" name="" lineNameFormat=""/>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.1/@items.1"/>
+  </chartSheets>
+</scave:Analysis>

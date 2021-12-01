@@ -17,6 +17,16 @@ package LEACHCPckg;
 simple Node
 {
     parameters:
+        @signal[energy](type=double);
+        @statistic[energy](source="energy";title="node remain energe";record=vector);
+       	
+		@signal[dataSent](type=int);
+        @statistic[dataSent](source="dataSent";title="node send data";record=vector);
+       	
+		@signal[dataRecv](type=int);
+        @statistic[dataRecv](source="dataRecv";title="node recv data";record=vector);
+        
+       	
         double x;
         double y;
         @display("p=$x,$y");
