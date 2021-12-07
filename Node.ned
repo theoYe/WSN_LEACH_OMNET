@@ -29,10 +29,9 @@ simple Node
        	
         double x;
         double y;
+        double nodeRange;
         @display("p=$x,$y");
     gates:
-        input radioIn @directIn; // work as input and output
-        
-
+        input radioIn @directIn; // work as input and output   
         //output out;
 }

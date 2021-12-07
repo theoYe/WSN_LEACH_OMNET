@@ -50,8 +50,8 @@ network LEACHC
 
         int noOfWirelessNode @prompt("Number of Nodes") = default(50);
         //@display("bgb=netSizeX,netSizeY");
-        //@display("bgb=800,600");
-        @display("bgb=200,200");
+        @display("bgb=0,0");
+        
 
     submodules:
         sink: Sink;

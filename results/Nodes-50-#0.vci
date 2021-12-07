@@ -1,15 +1,15 @@
-file 1651444 1638375027                                         
+                                                                
 version 2
-run Nodes-50-0-20211202-00:10:17-30483
+run Nodes-50-0-20211207-19:42:29-84571
 attr configname Nodes-50
-attr datetime 20211202-00:10:17
+attr datetime 20211207-19:42:29
 attr experiment Nodes-50
 attr inifile omnetpp.ini
 attr iterationvars ""
 attr iterationvarsf ""
 attr measurement ""
 attr network LEACHCPckg.LEACHC
-attr processid 30483
+attr processid 84571
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -54,18 +54,6 @@ attr title "node remain energe, vector"
 vector 11 LEACHC.node[49] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-0	1665 11 2 2 0.04 0.04 1 5 5 5 25
-1	1676 11 2 2 0.04 0.04 1 1 1 1 1
-2	1687 11 3 3 0.06 0.06 1 5 5 5 25
-3	1698 11 3 3 0.06 0.06 1 1 1 1 1
-4	1709 11 4 4 0.08 0.08 1 5 5 5 25
-5	1720 11 4 4 0.08 0.08 1 1 1 1 1
-6	1731 10 5 5 0.1 0.1 1 5 5 5 25
-7	1741 10 5 5 0.1 0.1 1 1 1 1 1
-8	1751 11 6 6 0.12 0.12 1 5 5 5 25
-9	1762 11 6 6 0.12 0.12 1 1 1 1 1
-10	1773 12 7 7 0.12 0.12 1 5 5 5 25
-11	1785 12 7 7 0.12 0.12 1 1 1 1 1
 vector 12 LEACHC.node[0] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
@@ -96,34 +84,34 @@ attr title "node remain energe, vector"
 vector 21 LEACHC.node[18] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 22 LEACHC.node[28] energy:vector ETV
+vector 22 LEACHC.node[23] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 23 LEACHC.node[28] dataSent:vector ETV
+vector 23 LEACHC.node[23] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 24 LEACHC.node[38] energy:vector ETV
+vector 24 LEACHC.node[28] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 25 LEACHC.node[38] dataSent:vector ETV
+vector 25 LEACHC.node[28] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 26 LEACHC.node[2] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 27 LEACHC.node[2] energy:vector ETV
+vector 26 LEACHC.node[38] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 28 LEACHC.node[15] dataRecv:vector ETV
+vector 27 LEACHC.node[38] dataSent:vector ETV
+attr source dataSent
+attr title "node send data, vector"
+vector 28 LEACHC.node[2] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 29 LEACHC.node[15] energy:vector ETV
+vector 29 LEACHC.node[2] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 30 LEACHC.node[17] dataRecv:vector ETV
+vector 30 LEACHC.node[15] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 31 LEACHC.node[17] energy:vector ETV
+vector 31 LEACHC.node[15] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
 vector 32 LEACHC.node[33] dataRecv:vector ETV
@@ -144,36 +132,36 @@ attr title "node remain energe, vector"
 vector 37 LEACHC.node[12] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 38 LEACHC.node[22] energy:vector ETV
+vector 38 LEACHC.node[17] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 39 LEACHC.node[22] dataSent:vector ETV
+vector 39 LEACHC.node[17] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 40 LEACHC.node[27] energy:vector ETV
+vector 40 LEACHC.node[22] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 41 LEACHC.node[27] dataSent:vector ETV
+vector 41 LEACHC.node[22] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 42 LEACHC.node[32] energy:vector ETV
+vector 42 LEACHC.node[27] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 43 LEACHC.node[32] dataSent:vector ETV
+vector 43 LEACHC.node[27] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 44 LEACHC.node[37] energy:vector ETV
+vector 44 LEACHC.node[32] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 45 LEACHC.node[37] dataSent:vector ETV
+vector 45 LEACHC.node[32] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 46 LEACHC.node[23] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 47 LEACHC.node[23] energy:vector ETV
+vector 46 LEACHC.node[37] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
+vector 47 LEACHC.node[37] dataSent:vector ETV
+attr source dataSent
+attr title "node send data, vector"
 vector 48 LEACHC.node[1] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
@@ -327,307 +315,50 @@ attr title "node send data, vector"
 vector 98 LEACHC.node[15] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 99 LEACHC.node[17] dataSent:vector ETV
+vector 99 LEACHC.node[42] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 100 LEACHC.node[42] dataSent:vector ETV
-attr source dataSent
-attr title "node send data, vector"
-vector 101 LEACHC.node[42] energy:vector ETV
+vector 100 LEACHC.node[42] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 102 LEACHC.node[42] dataRecv:vector ETV
+vector 101 LEACHC.node[42] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 103 LEACHC.node[23] dataSent:vector ETV
+vector 102 LEACHC.node[43] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 104 LEACHC.node[43] dataSent:vector ETV
-attr source dataSent
-attr title "node send data, vector"
-vector 105 LEACHC.node[43] energy:vector ETV
+vector 103 LEACHC.node[43] energy:vector ETV
 attr source energy
 attr title "node remain energe, vector"
-vector 106 LEACHC.node[2] dataSent:vector ETV
+vector 104 LEACHC.node[2] dataSent:vector ETV
 attr source dataSent
 attr title "node send data, vector"
-vector 107 LEACHC.node[18] dataRecv:vector ETV
+vector 105 LEACHC.node[46] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 108 LEACHC.node[32] dataRecv:vector ETV
+vector 106 LEACHC.node[3] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 109 LEACHC.node[29] dataRecv:vector ETV
+vector 107 LEACHC.node[32] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 110 LEACHC.node[25] dataRecv:vector ETV
+vector 108 LEACHC.node[29] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 111 LEACHC.node[3] dataRecv:vector ETV
+vector 109 LEACHC.node[25] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 112 LEACHC.node[46] dataRecv:vector ETV
+vector 110 LEACHC.node[47] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 113 LEACHC.node[8] dataRecv:vector ETV
+vector 111 LEACHC.node[45] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 114 LEACHC.node[47] dataRecv:vector ETV
+vector 112 LEACHC.node[48] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 115 LEACHC.node[10] dataRecv:vector ETV
+vector 113 LEACHC.node[41] dataRecv:vector ETV
 attr source dataRecv
 attr title "node recv data, vector"
-vector 116 LEACHC.node[13] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 117 LEACHC.node[45] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 118 LEACHC.node[48] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 119 LEACHC.node[41] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 120 LEACHC.node[6] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 121 LEACHC.node[27] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 122 LEACHC.node[28] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 123 LEACHC.node[16] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 124 LEACHC.node[12] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 125 LEACHC.node[44] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 126 LEACHC.node[4] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 127 LEACHC.node[37] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 128 LEACHC.node[49] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 129 LEACHC.node[7] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 130 LEACHC.node[22] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 131 LEACHC.node[9] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 132 LEACHC.node[24] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 133 LEACHC.node[20] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 134 LEACHC.node[35] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 135 LEACHC.node[1] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 136 LEACHC.node[5] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 137 LEACHC.node[30] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 138 LEACHC.node[40] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 139 LEACHC.node[39] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 140 LEACHC.node[26] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 141 LEACHC.node[38] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 142 LEACHC.node[11] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 143 LEACHC.node[14] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 144 LEACHC.node[21] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 145 LEACHC.node[34] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 146 LEACHC.node[36] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 147 LEACHC.node[43] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 148 LEACHC.node[31] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-vector 149 LEACHC.node[19] dataRecv:vector ETV
-attr source dataRecv
-attr title "node recv data, vector"
-0	16031 15632 298 166273 1.04 276.14 512 4.7650069077513 5 2500.3144614378 12212.398097436
-1	31663 5554 298 166273 1.04 276.14 299 2 300 45149 9045049
-2	37217 23889 315 166293 1.06 276.16 789 4.7557010897482 5 3849.0770013056 18781.450198828
-3	61106 6921 315 166293 1.06 276.16 372 2 373 69750 17367998
-4	68027 13045 332 166312 1.08 276.18 426 4.2460931426284 5 1967.610754837 9109.5491731009
-5	81072 5201 332 166312 1.08 276.18 280 2 281 39620 7435540
-6	86273 15081 352 166329 1.1 276.2 501 4.6617517895349 5 2415.7176810962 11653.036586757
-7	101354 5076 352 166329 1.1 276.2 287 2 288 41615 8004143
-8	106430 21006 370 166346 1.12 276.22 685 4.7922199275157 5 3353.6773430988 16421.711872115
-9	127436 5823 370 166346 1.12 276.22 313 2 314 49454 10369064
-10	133259 10119 371 166347 1.12 276.22 320 4.8574042493624 4.9998 1578.2679438027 7784.7026895565
-11	143378 5394 371 166347 1.12 276.22 276 2 277 38502 7123054
-12	148772 56676 8 158406 0.12 266.22 2688 1 2688 3614016 6477521344
-13	205448 178521 8 166320 0.12 276.2 5504 3.7548846590739 5 22938.382603868 96388.655265199
-14	383969 20211 289 166264 1.04 276.14 636 4.7939274818932 5 3113.9151017687 15248.204498491
-15	404180 6451 289 166264 1.04 276.14 329 1 329 54285 11924605
-16	410631 14410 290 166265 1.04 276.14 458 4.2822475604996 5 2127.2063813078 9900.8837510817
-17	425041 5908 290 166265 1.04 276.14 302 1 302 45753 9226855
-18	430949 19361 291 166266 1.04 276.14 613 4.6930461996893 5 2974.8868926546 14441.961926464
-19	450310 6558 291 166266 1.04 276.14 335 1 335 56280 12587960
-20	456868 18766 292 166267 1.04 276.14 592 4.7810948626489 5 2896.662695603 14175.680168404
-21	475634 6390 292 166267 1.04 276.14 326 1 326 53301 11601851
-22	482024 20155 294 166269 1.04 276.14 642 4.7437204250289 5 3125.1363727945 15216.151271886
-23	502179 6863 294 166269 1.04 276.14 350 1 350 61425 14352975
-24	509042 21486 296 166271 1.04 276.14 683 4.7804387546049 5 3342.3746970443 16359.318122495
-25	530528 7052 296 166271 1.04 276.14 360 1 360 64980 15616860
-26	537580 3862 299 164578 1.04 273.22 200 1 200 20100 2686700
-27	541442 14829 299 166284 1.04 276.16 470 4.6618185050217 4.99978 2269.3815671733 10962.819961057
-28	556271 3198 300 161907 1.04 272.22 168 1 168 14196 1594684
-29	559469 14021 300 166323 1.04 276.2 453 4.6867396040053 4.99978 2190.8535459782 10599.477396705
-30	573490 4299 301 161915 1.04 272.22 226 1 226 25651 3873301
-31	577789 16850 301 166287 1.04 276.16 535 4.7525051299961 4.99978 2611.9410194059 12754.712721507
-32	594639 6020 303 161323 1.04 271.22 309 1 309 47895 9882335
-33	600659 20720 303 166270 1.04 276.14 661 4.7881316105789 4.99978 3234.6069596499 15831.000189927
-34	621379 18387 307 166413 1.06 276.26 579 4.7699918438869 5 2833.0656663966 13864.876516538
-35	639766 6455 307 166413 1.06 276.26 329 1 329 54285 11924605
-36	646221 13972 308 166286 1.06 276.16 443 4.5497023520865 5 2114.0054084705 10096.514067879
-37	660193 5597 308 166286 1.06 276.16 286 1 286 41041 7838831
-38	665790 19002 310 166288 1.06 276.16 601 4.7758168412181 5 2940.0645574294 14385.154014807
-39	684792 5844 310 166288 1.06 276.16 299 1 299 44850 8955050
-40	690636 12439 311 166289 1.06 276.16 394 4.4585285748676 5 1862.6419458066 8815.5738987719
-41	703075 5633 311 166289 1.06 276.16 288 1 288 41616 8004144
-42	708708 17047 312 166290 1.06 276.16 540 4.7093458527381 5 2623.2896543008 12748.165288812
-43	725755 6135 312 166290 1.06 276.16 313 1 313 49141 10270469
-44	731890 23469 313 166291 1.06 276.16 739 4.7799272889705 5 3614.7685673894 17684.297404005
-45	755359 6859 313 166291 1.06 276.16 349 1 349 61075 14230475
-46	762218 4560 316 165171 1.06 274.22 236 1 236 27966 4409306
-47	766778 17885 316 166268 1.06 276.14 566 4.7023093837437 4.99978 2745.9074216364 13325.94522946
-48	784663 12139 323 166303 1.08 276.18 386 4.5947779949456 5 1852.0225609721 8891.5617015247
-49	796802 4975 323 166303 1.08 276.18 255 1 255 32640 5559680
-50	801777 16623 324 166304 1.08 276.18 528 4.7250990719032 5 2573.1602930036 12543.475416409
-51	818400 5510 324 166304 1.08 276.18 282 1 282 39903 7515065
-52	823910 12502 325 166305 1.08 276.18 396 4.449936526994 5 1868.4122116821 8826.3655872501
-53	836412 5179 325 166305 1.08 276.18 265 1 265 35245 6238365
-54	841591 17923 326 166306 1.08 276.18 571 4.8197836718437 5 2804.114481852 13772.179106458
-55	859514 5997 326 166306 1.08 276.18 306 1 306 46971 9597741
-56	865511 21486 327 166426 1.08 276.28 677 4.7849970077709 5 3312.3726709249 16209.127876662
-57	886997 6861 327 166426 1.08 276.28 349 1 349 61075 14230475
-58	893858 10976 328 166427 1.08 276.28 346 3.9635981645772 5 1549.0324983903 6964.3451969263
-59	904834 5308 328 166427 1.08 276.28 271 1 271 36856 6670936
-60	910142 15079 329 166309 1.08 276.18 477 4.7160993286949 5 2316.9442987073 11257.610957408
-61	925221 5894 329 166309 1.08 276.18 301 1 301 45451 9135651
-62	931115 24249 330 166429 1.08 276.28 763 4.7338173766573 5 3713.9462475822 18082.427164803
-63	955364 6575 330 166429 1.08 276.28 335 1 335 56280 12587960
-64	961939 15754 331 166311 1.08 276.18 502 4.6572273059653 5 2423.6030747362 11706.223720674
-65	977693 5588 331 166311 1.08 276.18 286 1 286 41041 7838831
-66	983281 59148 343 166320 1.1 276.2 2816 1 2816 3966336 7447456896
-67	1042429 20770 344 166321 1.1 276.2 668 4.7583131900521 5 3263.9828962767 15951.710029292
-68	1063199 6147 344 166321 1.1 276.2 327 1 327 53628 11708780
-69	1069346 13330 345 166322 1.1 276.2 429 4.369550043126 5 2010.904472148 9440.6465163992
-70	1082676 5321 345 166322 1.1 276.2 285 1 285 40755 7757035
-71	1087997 18652 347 166324 1.1 276.2 598 4.7456130171565 5 2914.5763122032 14208.45413676
-72	1106649 6182 347 166324 1.1 276.2 328 1 328 53956 11816364
-73	1112831 23661 348 166325 1.1 276.2 759 4.7677427472153 5 3708.2207260401 18120.650214508
-74	1136492 6878 348 166325 1.1 276.2 363 1 363 66066 16009994
-75	1143370 18678 349 166438 1.1 276.3 598 4.7473210660981 5 2914.8822696405 14211.331733099
-76	1162048 6012 349 166438 1.1 276.3 320 1 320 51360 10973920
-77	1168060 11062 350 166327 1.1 276.2 359 4.2218330512832 5 1660.089241206 7693.161371215
-78	1179122 5189 350 166327 1.1 276.2 279 1 279 39060 7278180
-79	1184311 18413 351 166440 1.1 276.3 585 4.7112634204293 5 2836.6324244135 13758.738660925
-80	1202724 5944 351 166440 1.1 276.3 315 1 315 49770 10468290
-81	1208668 16141 362 166338 1.12 276.22 510 4.7697426387513 5 2492.6185656512 12184.828453709
-82	1224809 5667 362 166338 1.12 276.22 290 1 290 42195 8171765
-83	1230476 16651 363 166339 1.12 276.22 530 4.6807938946465 5 2569.6485919425 12463.948514872
-84	1247127 5175 363 166339 1.12 276.22 265 1 265 35245 6238365
-85	1252302 19521 364 166340 1.12 276.22 619 4.8051392922549 5 3035.4688022849 14887.499486444
-86	1271823 6077 364 166340 1.12 276.22 310 1 310 48205 9978435
-87	1277900 10191 365 166341 1.12 276.22 323 4.3320117949212 5 1502.7661668906 7004.4830963385
-88	1288091 4954 365 166341 1.12 276.22 254 1 254 32385 5494655
-89	1293045 20046 366 166342 1.12 276.22 642 4.7922505970737 5 3144.6852988513 15405.8951691
-90	1313091 6018 366 166342 1.12 276.22 308 1 308 47586 9786854
-91	1319109 12497 367 166343 1.12 276.22 397 4.653130348232 5 1918.5141199801 9275.2006184807
-92	1331606 5161 367 166343 1.12 276.22 264 1 264 34980 6168140
-93	1336767 13671 368 166344 1.12 276.22 434 4.6762723397396 5 2100.055236053 10166.11311379
-94	1350438 5288 368 166344 1.12 276.22 271 1 271 36856 6670936
-95	1355726 17411 369 166345 1.12 276.22 554 4.8038364112752 5 2714.5673548567 13303.120231945
-96	1373137 5846 369 166345 1.12 276.22 299 1 299 44850 8955050
-97	1378983 6916 372 166270 1.12 276.14 352 1 352 62128 14600080
-98	1385899 5324 373 166323 1.12 276.2 285 1 285 40755 7757035
-99	1391223 6034 375 166287 1.12 276.16 309 1 309 47895 9882335
-100	1397257 5868 377 166292 1.12 276.16 286 1 286 41041 7838831
-101	1403125 13193 377 166292 1.12 276.16 405 4.2978101886 4.99978 1882.3136108968 8764.9798173795
-102	1416318 2346 377 153418 1.12 261.14 119 1 119 7140 568820
-103	1418664 6801 378 166268 1.12 276.14 330 1 330 54615 12033505
-104	1425465 5818 424 166272 1.14 276.14 283 1 283 40186 7595154
-105	1431283 10892 424 166272 1.14 276.14 334 4.1571990766024 5 1531.1532170273 7037.5355869584
-106	1442175 5547 426 166284 1.16 276.16 270 1 270 36585 6597495
-107	1447722 5404 887 153492 2.04 261.22 266 1 266 35511 6309121
-108	1453126 4607 888 161912 2.04 272.22 227 1 227 25878 3924830
-109	1457733 2631 889 165727 2.04 275.18 133 1 133 8911 793079
-110	1460364 8140 890 165766 2.04 275.22 396 1 396 78606 20778186
-111	1468504 6312 893 165172 2.04 274.22 307 1 307 47278 9691990
-112	1474816 2927 906 160724 2.06 270.22 146 1 146 10731 1048061
-113	1477743 3083 931 160134 2.08 269.22 156 1 156 12246 1277666
-114	1480826 8499 1475 161321 3.04 271.22 417 1 417 87153 24257585
-115	1489325 2885 1476 164574 3.04 273.22 144 1 144 10440 1005720
-116	1492210 5625 1477 161909 3.04 272.22 278 1 278 38781 7200339
-117	1497835 4313 1494 165761 3.06 275.22 214 1 214 23005 3289715
-118	1502148 4317 2069 160672 4.04 270.16 213 1 213 22791 3243919
-119	1506465 4321 2070 165167 4.04 274.22 216 1 216 23436 3382596
-120	1510786 4978 2072 160112 4.04 269.2 246 1 246 30381 4992611
-121	1515764 2104 2073 160727 4.04 270.22 106 1 106 5671 402641
-122	1517868 5942 2074 164576 4.04 273.22 292 1 292 42778 8341710
-123	1523810 5434 2661 155182 5.04 264.14 265 1 265 35245 6238365
-124	1529244 3154 2662 161317 5.04 271.22 157 1 157 12403 1302315
-125	1532398 7694 2664 158955 5.04 267.22 372 1 372 69378 17228870
-126	1540092 4427 2665 152843 5.04 260.16 220 1 220 24310 3573570
-127	1544519 8032 2666 165173 5.04 274.22 390 1 390 76245 19849115
-128	1552551 863 2682 155181 5.06 264.14 44 1 44 990 29370
-129	1553414 5102 2684 166348 5.06 276.22 250 1 250 31375 5239625
-130	1558516 6123 3195 160729 6.04 270.22 302 1 302 45753 9226855
-131	1564639 5351 3196 154670 6.04 263.22 265 1 265 35245 6238365
-132	1569990 6821 3199 155783 6.04 265.22 334 1 334 55945 12475735
-133	1576811 5531 3200 165762 6.04 275.22 270 1 270 36585 6597495
-134	1582342 1546 3218 148246 6.06 252.22 80 1 80 3240 173880
-135	1583888 2587 3787 160702 7.04 270.2 131 1 131 8646 757966
-136	1586475 6914 3788 160139 7.04 269.22 341 1 341 58311 13275471
-137	1593389 5655 3791 166354 7.04 276.22 278 1 278 38781 7200339
-138	1599044 5606 3792 166353 7.04 276.22 270 1 270 36585 6597495
-139	1604650 5147 3793 164579 7.04 273.22 255 1 255 32640 5559680
-140	1609797 1492 3849 166351 7.1 276.22 75 1 75 2850 143450
-141	1611289 6531 4375 160137 8.04 269.22 323 1 323 52326 11284974
-142	1617820 2614 4376 161871 8.04 272.18 131 1 131 8646 757966
-143	1620434 6326 4377 160730 8.04 270.22 309 1 309 47895 9882335
-144	1626760 6737 4379 166355 8.04 276.22 328 1 328 53956 11816364
-145	1633497 3275 4395 160131 8.06 269.22 163 1 163 13366 1456894
-146	1636772 8796 4968 166357 9.04 276.22 428 1 428 91806 26225914
-147	1645568 1007 6764 165709 12.06 275.16 51 1 51 1326 45526
-148	1646575 3539 8584 161913 15.04 272.22 176 1 176 15576 1832776
-149	1650114 1329 10440 154061 18.04 262.2 69 1 69 2415 111895
-
+vector 114 LEACHC.node[6] dataRecv:vector ETV
+attr source dat
